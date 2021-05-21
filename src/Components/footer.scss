@@ -1,0 +1,267 @@
+// footer
+footer {
+    padding-bottom: 30px;
+    ;
+  }
+  
+  .site-footer {
+    // padding:45px 0 20px;
+    font-size: 15px;
+    // line-height:24px;
+    color: #737373;
+  }
+  
+  .site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+  
+  .footer-hr {    
+    margin-top: 6em;
+    margin-left: 130px;
+    margin-right: 255px;    
+    width: 1060px;
+  }
+  
+  .site-footer .localtitle {
+    padding-top: 0px;
+    font-size: 30px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  .site-footer .logo {
+    display: inline-block;
+    margin-left: 8px;
+  }
+  .firstcolumn {
+    flex: 0 0 20%;
+    max-width: 25%;
+  }
+ .localcoupword {
+   font-size: 14px;
+   font-family: Poppins;
+   padding-top: 10px;
+   margin-left: -26px;
+ } 
+ .codefooter {
+  margin-top: 20px;
+ }
+ .aboutfooter{
+   padding-top: 20px;
+   
+ }
+ .careersfooter {
+   padding-left: 70px;
+   display: inline;
+ }
+ .investrelations {
+   display: inline;
+   margin-top: 20px;
+ }
+  
+  .texts-justify {
+    display: inline-block;
+    text-justify: right;
+    text-justify: left;  
+    font-size: 14px; 
+    margin-left: -26px;
+  }
+  
+  .site-footer .social-icons a {
+    color: #F57E5D;
+  }
+  
+  .site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  
+  .footer-links {
+    padding-left: 0;
+
+    display: inline;
+     }
+  .FAQ {
+    display: inline;
+    padding-left: 130px;
+    font-size: 14px;
+  }
+  .werehiring {
+    font-family: 'Nanum Pen Script', cursive;
+    color: #2EC5CE;
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  
+  .footer-links li {
+    display: inline-block;
+    margin-left: -30px;
+  }
+  
+  .footer-links a {
+    color: #737373;
+    
+  }
+  
+  .footer-links a:active,
+  .footer-links a:focus,
+  .footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+  }
+  
+  .footer-links.inline li {
+    display: inline-block;
+  }
+  
+  .site-footer .social-icons a {
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    // margin-left:6px;
+    margin-right: 6px;
+    border-radius: 100%;
+    background-color: rgb(245, 126, 93, 0.1)
+  }
+  
+  .copyright-text {
+    margin-top: 20px;
+    margin-left: -10px;
+    color: #737373;
+    font-size: 12px;
+  }
+  
+  .copyright-text a {
+    color: #F57E5D;
+  }
+  
+  @media (max-width:991px) {
+    .site-footer [class^=col-] {
+      margin-bottom: 30px
+    }
+  }
+  
+  @media (max-width:767px) {
+    .site-footer {
+      padding-bottom: 0
+    }
+  
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+      text-align: center
+    }
+  }
+  
+  .social-icons {
+    padding-left: 0;
+    // margin-bottom:0;
+    list-style: none;
+    margin-left: -50px;   
+  }
+  
+  .social-icons li {
+    display: inline-block;
+    margin-top: 35px;
+    padding-left: 25px;
+  }
+  
+  .social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #f1b5a4;
+    font-weight: 700;
+    font-size: 13px;
+  }
+  
+  .social-icons a {
+    background-color: #F57E5D;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+  }
+  
+  .social-icons a:active,
+  .social-icons a:focus,
+  .social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+  }
+  
+  .social-icons a.instagram:hover {
+    background-color: #f1a4a4
+  }
+  
+  .social-icons a.twitter:hover {
+    background-color: #F57E5D
+  }
+  
+  .social-icons a.youtube:hover {
+    background-color: #F57E5D
+  }
+  
+  .social-icons a.dribbble:hover {
+    background-color: #F57E5D
+  }
+  
+  @media (max-width:767px) {
+    .social-icons li.title {
+      display: inline-block;
+      margin-right: 0;
+      font-weight: 600
+    }
+  }
+  
+  .legal li {
+    display: inline;
+    padding-right: 10px;
+    margin-left: 15px;
+  }
+  
+  .separator {
+    border-right: 1px solid;    
+  }
+  
+  .legal {
+    margin-left: 53em;
+    margin-top: -35px; 
+    color: #737373;  
+    font-size: 14px;
+  }
+  
+  .legal a {
+    color: #737373;   
+  }
+  .footer-links li {
+    padding-bottom: 7px;
+    font-size: 14px;   
+  }
+  .picsquare {
+    width: 125px;
+    height: 56px;
+    margin-top: 7px;
+    margin-left: -35px;
+  }
+  .aligncontactinfo div{
+    display: inline;
+    padding-right: 15px;
+    
+  }
+  .companycol {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
+  .cityst {
+    float: right;
+    margin-right: 27px;
+  }
+ 

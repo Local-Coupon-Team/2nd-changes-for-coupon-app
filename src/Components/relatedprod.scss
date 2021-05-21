@@ -1,0 +1,65 @@
+.relatedprodimg {
+    width: 313px;
+    height: 220px;
+    float: left;       
+    margin-right: 25px;  
+}
+.relatedprodproblem {
+    margin: auto 0; 
+}
+.relatedname {
+    // margin-left: 460px;
+    font-size: 24px;
+    font-family: Merriweather;
+    margin-top: 35px;
+    
+}
+.relatedbusiness {
+    font-family: Poppins;
+    font-size: 20px;
+    
+}
+.relateddiscount {
+    padding-top: 15px;
+    text-align: center;
+}
+.relateReservebtn {
+    color: white;
+    background-color:#FF4E00;
+    border-color: transparent;
+    width: 202px;
+    height: 46px;
+    text-align: center;    
+    margin-top: 8px;
+    margin-left: 5px;
+}
+.rstar {
+    color: #FFDA00;
+    font-size: 20px;
+    padding: 0 .5rem;
+    /* space out the stars */
+    font-weight: 900;
+    
+}
+
+.rstar::before {
+    content: '\2606';
+    /* star outline */
+    cursor: pointer;
+}
+
+.rstar.rated::before {
+    /* the style for a selected star */
+    content: '\2605';
+    /* filled star */
+}
+
+.relatedstars {
+    counter-reset: rateme 0;
+    font-size: 30px;
+    font-weight: 900; 
+}
+
+.rstar.rated {
+    counter-increment: rateme 1;
+}

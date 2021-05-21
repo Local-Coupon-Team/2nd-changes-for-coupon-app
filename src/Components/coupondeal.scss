@@ -1,0 +1,141 @@
+.star {
+    color: #FFDA00;
+    font-size: 20px;
+    padding: 0 .5rem;
+    /* space out the stars */
+    font-weight: 900;
+}
+
+.star::before {
+    content: '\2606';
+    /* star outline */
+    cursor: pointer;
+}
+
+.star.rated::before {
+    /* the style for a selected star */
+    content: '\2605';
+    /* filled star */
+}
+
+.stars {
+    counter-reset: rateme 0;
+    font-size: 30px;
+    font-weight: 900;
+    //   display: inline-block;
+    right: 0;
+    float: right;
+    margin-right: 40px;
+    margin-top: -10px;
+}
+
+.star.rated {
+    counter-increment: rateme 1;
+}
+
+.categorydetails {
+    list-style: none;
+}
+
+.categorydetails li {
+    display: inline;
+    margin-right: 100px;
+    border-left: 3px solid #008B75;
+    color: #008B75;
+    padding-left: 5px;
+    margin-left: -30px;
+}
+
+.grouping {
+    display: inline-block;
+    width: 59vw;
+    margin-left: 230px;
+    margin-top: 20px;
+    // height: 100px;
+}
+
+.dealimg {
+    // display: inline-block;
+    width: 178px;
+    height: 178px;
+    padding-right: 10px;
+    margin-top: -30px;
+    margin-left: 50px;
+}
+
+.fullcouponpage {
+    // display: inline-block;
+}
+
+.Productname {
+    display: inline-block;
+    font-size: 26px;
+    font-family: merriweather;
+    // margin-bottom: 10px;;
+}
+
+.checkbox {
+    margin-left: -60px;
+    margin-top: 30px;
+    display: inline-block !important;
+    margin-right: -80px;
+}
+
+.Reservebtn {
+    float: right;
+    background-color: #FF4E00;
+    margin-right: 55px;
+    margin-top: -10px;
+    width: 150px;
+    color: white;
+}
+
+.parag {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.businesscat {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: merriweather;
+    top: 28px;
+    position: absolute;
+    left: 550px;
+}
+
+.line {
+    color: #008B75;
+    border: 1px solid;
+    width: 650px;
+    margin-bottom: 25px;
+}
+
+.originalprice {
+    display: inline-block;
+    padding-left: 20px;
+    text-decoration: line-through;
+}
+
+.discount {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.couprem {
+    display: inline-block;
+    font-size: 48px;
+    padding-left: 20px;
+    padding-bottom: 40px;
+    padding-top: 30px;
+    color: gray;
+}
+
+.couponremaining {
+    font: 9px bold Poppins;
+}
+
+.joinremaining {
+    margin-top: 27px;
+  
+}
